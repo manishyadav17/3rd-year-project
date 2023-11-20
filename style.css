@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+/*css variable*/c-
+:root{
+--navbar-height: 59px;
+}
+navigation bar
+#navbar{
+    display: flex;
+    align-items: center;
+
+}
+#navbar::before {
+    content: "";
+    background-color: black;
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+z-index: -1;
+opacity: 0.4;
+
+   
+   
+
+}
+/* navigation bar: logo and image*/
+#logo{
+    margin: 19px 27px;
+}
+#logo img{
+    height: 34px;
+    margin: 2px 3px;
+
+}
+/* navigation bar:  lis staling*/
+#navbar ul{
+    display: flex;
+}
+#navbar{
+    position: relative;
+}
+#navbar ul li{
+   list-style: none;
+   font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    /* display: none; */
+
+    padding: 2px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+ #navbar ul li a:hover{
+    color: black;
+    background-color: white;
+  
+ }
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+   
+
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+#home{
+    content: "";
+    background: url('../picture/kachibackground.jpg.jpg');
+
+    position: absolute;
+    height: 385px;
+    width: 100%;
+z-index: -1;
+opacity: 0.899;
+}
+/* utility classes */
+.h-primary p{
+    padding: 12px;
+    font-size: 2.9rem;
+    font-family: 'Source Code Pro', monospace;
+    color: yellow;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    margin: 9px;
+    font-size: 30px;
+}
+#home p{
+    color: rgb(194, 194, 189);
+}
+.btn{
+padding: 7px;
+margin: 10px;
+border: solid rgb(161, 6, 6);
+border-radius: 13px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+.h-primary{
+    font-size: 3rem;
+    padding: 12px;
+}
+.h-cecondary{
+    font-size: 3rem;
+    padding: 12px;
+}
+#services{
+    margin: 34px;
+    display: flex;
+
+}
+#services .box{
+    border: 2px solid rgb(0, 153, 255);
+}
+#services .box img{
+height: 180px;
+display: inline-block;
+align-items: flex-end;
+align-items: center;
+}
+#serv{
+    margin: 34px;
+    display: flex;
+
+}
+#serv .box{
+    border: 2px solid rgb(0, 153, 255);
+}
+#serv .box img{
+height: 100%;
+width: 110%;
+/* display: inline-block; */
+align-items: flex-end;
+align-items: center;
+}
+.services-container{
+    /* display: inline-block; */
+    /* position: absolute; */
+    align-items: flex-end;
+}
+#manish img{
+    height: 170px;
+    border: 1px solid yellow;
+    /* position: absolute; */
+    display: inline;
+    /* text-decoration:none; */
+    display: flex;
+
+}
+#manish ul{
+    display: flex;
+    margin: auto;
+    padding: 2px 2px;
+    list-style: none;
+
+    text-decoration: none;
+}
+#manish ul li a:hover{
+    color: black;
+    background-color: white;
+  
+ }
+ #manish btn{
+  border: 2px solid red;   
+  padding: 4px;
+  margin: 7px;
+ }
+
+
+
+
+
+
+
+
+
